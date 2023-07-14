@@ -26,6 +26,7 @@ module.exports = {
             fontSize: {
                 "9xl": ["120px", "120px"],
                 base: ["18px", "21.6px"],
+                sm: ["16px", "17.6px"],
             },
             backgroundImage: {
                 "hero-pattern": "url('/assets/banner.png')",
