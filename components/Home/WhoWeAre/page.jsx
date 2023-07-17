@@ -4,32 +4,73 @@ import React from "react";
 
 const WhoWeAre = () => {
     return (
-        <div className="grid place-items-center min-h-screen">
-            <div className="p-4 grid gap-4 max-w-7xl sm:grid-cols-2 md:grid-cols-4">
-                <h1 className="text-4xl font-extrabold sm:col-span-2 sm:grid sm:grid-cols-2 sm:gap-4 md:col-span-3 md:grid-cols-3">
-                    <span className="md:col-span-2"></span> Grid Layout With
-                    Tailwind Css
-                </h1>
-                <p className="sm:row-start-2 sm:col-start-2 sm:self-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Recusandae esse dolore asperiores error ullam quo fugiat,
-                    dolor at, maxime reiciendis dicta praesentium tenetur illum
-                    nam et! Quo, officia. Saepe, labore.
-                </p>
-                <div className="h-16  bg-blue-500 sm:h-auto sm:aspect-square"></div>
-                <div className="h-16 bg-blue-500 sm:h-auto sm:aspect-square"></div>
-                <div className="h-16 bg-pink-500 sm:h-auto sm:aspect-square"></div>
-                <div className="h-16 bg-blue-500 sm:h-auto sm:aspect-square"></div>
-                <div className="h-16 bg-pink-500 sm:h-auto sm:aspect-square"></div>
-                <div className="h-16 bg-blue-500 sm:h-auto sm:aspect-square"></div>
-                <div className="h-16 bg-blue-500 sm:h-auto sm:aspect-square"></div>
-                <div className="h-16 bg-pink-500 sm:h-auto sm:aspect-square"></div>
-                <p className="sm:self-center">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Repellat, maxime doloribus soluta laboriosam ullam harum
-                    ipsa nam libero molestias quidem distinctio optio, saepe id.
-                    Temporibus cum esse veniam quis doloremque?
-                </p>
+        <div class="text-white body-font bg-[#02050A]">
+            <div class="container px-5 py-24 mx-auto">
+                <div className="flex flex-col items-center justify-center text-center">
+                    <div className="flex flex-row gap-2 py-5">
+                        <img src="./assets/red-arrow.svg" alt="" />
+                        <p className="text-primary-red text-base">
+                            About Company
+                        </p>
+                    </div>
+                    <h2 className="text-5xl font-semibold">WHO WE ARE?</h2>
+                    <p className=" w-1/2 mx-auto py-5">
+                        Morosoft is one of the fastest growing IT company in
+                        Pakistan, delivering a broad range of products solutions
+                        and services across industries in all over the world.
+                    </p>
+                    <button className="bg-primary-red text-white rounded-full px-7 py-2">
+                        Read More
+                    </button>
+                </div>
+
+                <div className="grid grid-col-1 md:grid-cols-3 gap-4 text-black py-10">
+                    <div className="bg-white bg-background-pattern p-3 sm:p-10 bg-no-repeat bg-cover bg-bottom">
+                        <div className="flex flex-row justify-between items-center pb-3">
+                            <h3 className="text-md font-semibold">
+                                Our Vision
+                            </h3>
+                            <img
+                                src="./assets/our-vision.svg"
+                                alt=""
+                                srcset=""
+                            />
+                        </div>
+                        <p className="text-sm font-light">
+                            Bring inspiration in the life of Entrepreneur,
+                            Industrialist, Businessman, and make the world a
+                            better place for everyone.
+                        </p>
+                    </div>
+                    <div className="bg-[#070F1C] text-white bg-background-our-mission p-3 sm:p-10 bg-no-repeat bg-cover bg-bottom">
+                        <div className="flex flex-row justify-between items-center pb-3">
+                            <h3 className="text-md font-semibold">
+                                Our Mission
+                            </h3>
+                            <img
+                                src="./assets/our-mission.svg"
+                                alt=""
+                                srcset=""
+                            />
+                        </div>
+                        <p className="text-sm font-light">
+                            Shape Idea's, Ensure Security, improve customer
+                            satisfaction, engage Prospects bring leads and
+                            increase Profitability.
+                        </p>
+                    </div>
+                    <div className="bg-[#070F1C] text-white bg-background-our-mission p-3 sm:p-10 bg-no-repeat bg-cover bg-bottom">
+                        <div className="flex flex-row justify-between items-center pb-3">
+                            <h3 className="text-md font-semibold">Our Goal</h3>
+                            <img src="./assets/our-goal.svg" alt="" srcset="" />
+                        </div>
+                        <p className="text-sm font-light">
+                            Shape Idea's, Ensure Security, improve customer
+                            satisfaction, engage Prospects bring leads and
+                            increase Profitability.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     );
