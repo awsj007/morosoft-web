@@ -5,7 +5,7 @@ import React from "react";
 const OurPortfolio = () => {
     return (
         <div class="text-white body-font bg-[#02050A]">
-            <div class="container px-5 py-24 mx-auto">
+            <div class="px-5 py-24 mx-auto">
                 <div className="flex flex-col items-center justify-center text-center">
                     <div className="flex flex-row gap-2 py-5">
                         <img src="./assets/red-arrow.svg" alt="" />
@@ -22,51 +22,106 @@ const OurPortfolio = () => {
                     </button>
                 </div>
 
-                <div className="grid grid-col-1 md:grid-cols-3 gap-4 text-black py-10">
-                    <div className="bg-white bg-background-pattern p-3 sm:p-10 bg-no-repeat bg-cover bg-bottom">
-                        <div className="flex flex-row justify-between items-center pb-3">
-                            <h3 className="text-md font-semibold">
-                                Our Vision
-                            </h3>
+                <div className="grid grid-col-1 md:grid-cols-3 gap-x-10 gap-y-16 text-black max-w-4xl mx-auto py-20">
+                    <div className="text-white p-1 sm:p-5 bg-[#070F1CCC] border-dashed border border-[#FFFFFF66] rounded-tr-2xl rounded-bl-2xl">
+                        <div className="relative flex flex-row justify-evenly items-center  ">
                             <img
-                                src="./assets/our-vision.svg"
+                                class="absolute right-0 top-0"
+                                src="./assets/arrow.svg"
+                                alt=""
+                            />
+                            <img
+                                src="./assets/custom-website.svg"
                                 alt=""
                                 srcset=""
                             />
-                        </div>
-                        <p className="text-sm font-light">
-                            Bring inspiration in the life of Entrepreneur,
-                            Industrialist, Businessman, and make the world a
-                            better place for everyone.
-                        </p>
-                    </div>
-                    <div className="bg-[#070F1C] text-white bg-background-our-mission p-3 sm:p-10 bg-no-repeat bg-cover bg-bottom">
-                        <div className="flex flex-row justify-between items-center pb-3">
                             <h3 className="text-md font-semibold">
-                                Our Mission
+                                Custom website
                             </h3>
+                        </div>
+                    </div>
+                    <div className="text-white p-1 sm:p-5 bg-[#070F1CCC] border-dashed border border-[#FFFFFF66] rounded-tr-2xl rounded-bl-2xl">
+                        <div className="relative flex flex-row justify-evenly items-center  ">
                             <img
-                                src="./assets/our-mission.svg"
+                                class="absolute right-0 top-0"
+                                src="./assets/arrow.svg"
+                                alt=""
+                            />
+                            <img
+                                src="./assets/mobile-apps.svg"
                                 alt=""
                                 srcset=""
                             />
+                            <h3 className="text-md font-semibold">
+                                Mobile Apps
+                            </h3>
                         </div>
-                        <p className="text-sm font-light">
-                            Shape Idea's, Ensure Security, improve customer
-                            satisfaction, engage Prospects bring leads and
-                            increase Profitability.
-                        </p>
                     </div>
-                    <div className="bg-[#070F1C] text-white bg-background-our-mission p-3 sm:p-10 bg-no-repeat bg-cover bg-bottom">
-                        <div className="flex flex-row justify-between items-center pb-3">
-                            <h3 className="text-md font-semibold">Our Goal</h3>
-                            <img src="./assets/our-goal.svg" alt="" srcset="" />
+                    <div className="text-white p-1 sm:p-5 bg-[#070F1CCC] border-dashed border border-[#FFFFFF66] rounded-tr-2xl rounded-bl-2xl">
+                        <div className="relative flex flex-row justify-evenly items-center  ">
+                            <img
+                                class="absolute right-0 top-0"
+                                src="./assets/arrow.svg"
+                                alt=""
+                            />
+                            <img src="./assets/ui-ux.svg" alt="" srcset="" />
+                            <h3 className="text-md font-semibold">UI/UX</h3>
                         </div>
-                        <p className="text-sm font-light">
-                            Shape Idea's, Ensure Security, improve customer
-                            satisfaction, engage Prospects bring leads and
-                            increase Profitability.
-                        </p>
+                    </div>
+                    <div className="text-white p-1 sm:p-5 bg-[#070F1CCC] border-dashed border border-[#FFFFFF66] rounded-tr-2xl rounded-bl-2xl">
+                        <div className="relative flex flex-row justify-evenly items-center  ">
+                            <img
+                                class="absolute right-0 top-0"
+                                src="./assets/arrow.svg"
+                                alt=""
+                            />
+                            <img
+                                src="./assets/custom-website.svg"
+                                alt=""
+                                srcset=""
+                            />
+                            <h3 className="text-md font-semibold">Shopify</h3>
+                        </div>
+                    </div>
+                    <div className="text-white p-1 sm:p-5 bg-[#070F1CCC] border-dashed border border-[#FFFFFF66] rounded-tr-2xl rounded-bl-2xl">
+                        <div className="relative flex flex-row justify-evenly items-center  ">
+                            <img
+                                class="absolute right-0 top-0"
+                                src="./assets/arrow.svg"
+                                alt=""
+                            />
+                            <img
+                                src="./assets/mobile-apps.svg"
+                                alt=""
+                                srcset=""
+                            />
+                            <h3 className="text-md font-semibold">Wordpress</h3>
+                        </div>
+                    </div>
+                    <div className="text-white p-1 sm:p-5 bg-[#070F1CCC] border-dashed border border-[#FFFFFF66] rounded-tr-2xl rounded-bl-2xl">
+                        <div className="relative flex flex-row justify-evenly items-center  ">
+                            <img
+                                class="absolute right-0 top-0"
+                                src="./assets/arrow.svg"
+                                alt=""
+                            />
+                            <img src="./assets/ui-ux.svg" alt="" srcset="" />
+                            <h3 className="text-md font-semibold">Industry</h3>
+                        </div>
+                    </div>
+
+                    <div className="relative flex justify-evenly items-top col-span-2 -mt-32 ">
+                        <img className="" src="./assets/ushape.svg" alt="" />
+                    </div>
+                    <div className="flex flex-row justify-end">
+                        <button className="w-[128px] h-[128px] bg-primary-red text-white rounded-full">
+                            <img
+                                src="./assets/arrow.svg"
+                                alt=""
+                                className="w-5 h-5 mx-auto "
+                            />
+                            Explores
+                        </button>
                     </div>
                 </div>
             </div>

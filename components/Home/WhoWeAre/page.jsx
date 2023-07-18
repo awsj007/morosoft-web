@@ -5,7 +5,7 @@ import React from "react";
 const WhoWeAre = () => {
     return (
         <div class="text-white body-font bg-[#02050A]">
-            <div class="container px-5 py-24 mx-auto">
+            <div class="max-w-6xl px-5 py-24 mx-auto">
                 <div className="flex flex-col items-center justify-center text-center">
                     <div className="flex flex-row gap-2 py-5">
                         <img src="./assets/red-arrow.svg" alt="" />

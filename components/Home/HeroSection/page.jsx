@@ -4,17 +4,17 @@ import Image from "next/image";
 function HeroSection() {
     return (
         <div className="bg-hero-pattern  bg-dark-gray">
-            <div className="relative mx-auto max-w-7xl px-6 lg:px-8 flex items-center min-h-screen py-32">
+            <div className="relative mx-auto max-w-6xl px-6 lg:px-8 flex items-center min-h-screen py-32">
                 <div className="mx-auto ">
                     <div className="text-left text-white">
                         <div className="relative ">
                             <img
                                 src="./assets/reverse-c.svg"
                                 alt=""
-                                className="h-[118px] w-[118px] absolute right-[40%] z-10"
+                                className="h-[118px] w-[118px] absolute right-[30%] z-10"
                             />
                             <img
-                                className="absolute right-[27%] top-[60px] z-0"
+                                className="absolute right-[20%] top-[60px] z-0"
                                 src="./assets/right-arrow.svg"
                                 alt=""
                             />
@@ -25,7 +25,7 @@ function HeroSection() {
                         </h1>
                     </div>
 
-                    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                    <div className="mx-auto max-w-6xl">
                         <div className="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-4 place-items-center">
                             <div className="flex max-w-xl flex-col items-start justify-between">
                                 <div className="group relative">
@@ -79,7 +79,7 @@ function HeroSection() {
                                     src="./assets/video-thumbnail.png"
                                     alt=""
                                     srcset=""
-                                    className="w-[541px] h-[283px]"
+                                    className="max-w-xl h-[283px]"
                                 />
                             </div>
                             <div className="flex flex-col">
