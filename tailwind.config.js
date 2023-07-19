@@ -14,6 +14,7 @@ module.exports = {
             center: true,
             padding: "1rem",
         },
+
         extend: {
             fontFamily: {
                 satoshi: ["Satoshi", "sans-serif"],
@@ -22,6 +23,7 @@ module.exports = {
             colors: {
                 "primary-red": "#EA1B38",
                 "dark-gray": "#070F1C",
+                "light-gray": "#060D18",
             },
             fontSize: {
                 "5xl": ["50px", "55px"],
@@ -39,5 +41,5 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [require("@tailwindcss/forms")],
 };
