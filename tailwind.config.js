@@ -28,6 +28,8 @@ module.exports = {
             fontSize: {
                 "5xl": ["50px", "55px"],
                 "9xl": ["120px", "120px"],
+                xl: ["40px", "45px"],
+                lg: ["30px", "35px"],
                 md: ["20px", "22px"],
                 base: ["18px", "21.6px"],
                 sm: ["16px", "17.6px"],
