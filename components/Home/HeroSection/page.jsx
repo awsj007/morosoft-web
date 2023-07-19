@@ -26,8 +26,8 @@ function HeroSection() {
                     </div>
 
                     <div className="mx-auto max-w-6xl">
-                        <div className="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-4 place-items-center">
-                            <div className="flex max-w-xl flex-col items-start justify-between">
+                        <div className="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-10 place-items-center">
+                            <div className="flex max-w-xl flex-col items-start justify-between col-span-3">
                                 <div className="group relative">
                                     <p className="mt-5 line-clamp-3 text-sm leading-6 text-white">
                                         We are one of the best organization
@@ -60,16 +60,16 @@ function HeroSection() {
                                             alt=""
                                             className="h-10 w-10 rounded-full -ml-4"
                                         />
-                                        <span className="h-10 w-12 bg-primary-red rounded-full -ml-4 flex flex-col items-center justify-center text-[25px] pb-1">
+                                        <span className="h-10 w-10 bg-primary-red rounded-full -ml-4 flex flex-col items-center justify-center text-md pb-1">
                                             +
                                         </span>
-                                        <div className="text-sm ml-2">
+                                        <div className="text-sm ml-6">
                                             <p>100+ Popular Clients</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-span-2 place-items-center relative">
+                            <div className="col-span-6 place-items-center relative">
                                 <img
                                     src="./assets/play.svg"
                                     alt=""
@@ -79,7 +79,7 @@ function HeroSection() {
                                     src="./assets/video-thumbnail.png"
                                     alt=""
                                     srcset=""
-                                    className="max-w-xl h-[283px]"
+                                    className="md:max-w-xl md:h-[283px]"
                                 />
                             </div>
                             <div className="flex flex-col">

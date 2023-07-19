@@ -6,7 +6,7 @@ const Testimonials = () => {
     return (
         <div className="bg-dark-gray text-white">
             <div className="max-w-6xl mx-auto py-10 ">
-                <div className="grid grid-cols-2 gap-20">
+                <div className="grid grid-col-1 md:grid-cols-2 gap-20">
                     <div className=" bg-center bg-cover ">
                         <img
                             className="bg-center"
@@ -14,7 +14,7 @@ const Testimonials = () => {
                             alt=""
                         />
                     </div>
-                    <div className="flex flex-col items-left justify-center text-left">
+                    <div className="flex flex-col items-left justify-center text-left px-5">
                         <div className="flex flex-row gap-2 py-5">
                             <img src="./assets/red-arrow.svg" alt="" />
                             <p className="text-primary-red text-base">
@@ -42,7 +42,7 @@ const Testimonials = () => {
                                 <div className="flex flex-row flex-grow">
                                     <img src="./assets/five-stars.svg" alt="" />
                                     <img
-                                        className=" -mr-20 "
+                                        className=" -mr-20 md:block hidden  "
                                         src="./assets/c.svg"
                                         alt=""
                                     />

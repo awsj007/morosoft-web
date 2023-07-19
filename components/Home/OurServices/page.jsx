@@ -25,7 +25,7 @@ const OurServices = () => {
 
                 <div className="grid grid-cols-2 gap-32 max-w-5xl mx-auto">
                     <div className="divide-y divide-dashed">
-                        <div className="flex flex-row justify-between items-center py-6">
+                        <div className="flex flex-row justify-between items-center py-10">
                             <img src="./assets/service-icon-1.svg" alt="" />
                             <p className="px-5">
                                 We develop professional websites for our
@@ -33,67 +33,61 @@ const OurServices = () => {
                             </p>
                             <img src="./assets/arrow.svg" alt="" />
                         </div>
-                        <div className="flex flex-row justify-between items-center py-6">
-                            <img src="./assets/service-icon-1.svg" alt="" />
+                        <div className="flex flex-row justify-between items-center py-10">
+                            <img src="./assets/service-icon-2.svg" alt="" />
                             <p className="px-5">
-                                We develop professional websites for our
-                                clients.
+                                We design professional looking websites.
                             </p>
                             <img src="./assets/arrow.svg" alt="" />
                         </div>
-                        <div className="flex flex-row justify-between items-center py-6">
-                            <img src="./assets/service-icon-1.svg" alt="" />
+                        <div className="flex flex-row justify-between items-center py-10">
+                            <img src="./assets/service-icon-3.svg" alt="" />
                             <p className="px-5">
-                                We develop professional websites for our
-                                clients.
+                                We build professional web applications.
                             </p>
                             <img src="./assets/arrow.svg" alt="" />
                         </div>
-                        <div className="flex flex-row justify-between items-center py-6">
-                            <img src="./assets/service-icon-1.svg" alt="" />
+                        <div className="flex flex-row justify-between items-center py-10">
+                            <img src="./assets/service-icon-4.svg" alt="" />
                             <p className="px-5">
-                                We develop professional websites for our
-                                clients.
+                                Graphic Designing is one of our core service.
                             </p>
                             <img src="./assets/arrow.svg" alt="" />
                         </div>
-                        <div className="flex flex-row justify-between items-center py-6">
-                            <img src="./assets/service-icon-1.svg" alt="" />
+                        <div className="flex flex-row justify-between items-center py-10">
+                            <img src="./assets/service-icon-5.svg" alt="" />
                             <p className="px-5">
-                                We develop professional websites for our
-                                clients.
+                                We are highly efficient in developing Mobile
+                                Apps.
                             </p>
                             <img src="./assets/arrow.svg" alt="" />
                         </div>
-                        <div className="flex flex-row justify-between items-center py-6">
-                            <img src="./assets/service-icon-1.svg" alt="" />
+                        <div className="flex flex-row justify-between items-center py-10">
+                            <img src="./assets/service-icon-6.svg" alt="" />
                             <p className="px-5">
-                                We develop professional websites for our
-                                clients.
+                                We do SEO for better Marketing for our clients.
                             </p>
                             <img src="./assets/arrow.svg" alt="" />
                         </div>
                     </div>
                     <div className="py-6 flex flex-col justify-between">
                         <img src="./assets/popular-service.png" alt="" />
-                        <div className="grid grid-cols-3">
-                            <img
-                                className="col-span-2"
-                                src="./assets/ushape.svg"
-                                alt=""
-                            />
 
-                            <div className="flex flex-row justify-end items-start">
-                                <button className="w-[128px] h-[128px] bg-primary-red text-white rounded-full">
-                                    <img
-                                        src="./assets/arrow.svg"
-                                        alt=""
-                                        className="w-5 h-5 mx-auto "
-                                    />
-                                    Explores
-                                </button>
-                            </div>
+                        <div className="flex flex-row justify-end items-start mr-8 ">
+                            <button className="w-[128px] h-[128px] bg-primary-red text-white rounded-full">
+                                <img
+                                    src="./assets/arrow.svg"
+                                    alt=""
+                                    className="w-5 h-5 mx-auto "
+                                />
+                                Explores
+                            </button>
                         </div>
+                        <img
+                            className="-mt-72"
+                            src="./assets/ushape.svg"
+                            alt=""
+                        />
                     </div>
                 </div>
             </div>
