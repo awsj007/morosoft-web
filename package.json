@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.2",
+    "animejs": "^3.2.1",
     "autoprefixer": "10.4.14",
     "next": "13.4.6",
     "postcss": "8.4.24",
