@@ -40,6 +40,7 @@ module.exports = {
                 "background-pattern": "url('/assets/background-pattern.svg')",
                 "background-our-mission":
                     "url('/assets/background-our-mission.svg')",
+                "background-footer": "url('/assets/bg-footer.svg')",
             },
         },
     },
