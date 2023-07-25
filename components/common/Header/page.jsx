@@ -4,9 +4,9 @@ import Link from "next/link";
 const Header = () => {
     return (
         <>
-            <header className="relative bg-dark-gray text-white">
+            <header className="relative bg-dark-gray text-white ">
                 <div className="z-50 absolute left-0 right-0 max-w-6xl mx-auto ">
-                    <section className="flex flex-row justify-between items-center gap-4 py-[35px]">
+                    <section className="flex flex-row justify-between items-center gap-4 py-[35px] px-6">
                         <div className="">
                             <Link href="/">
                                 <img
@@ -16,7 +16,7 @@ const Header = () => {
                                 />
                             </Link>
                         </div>
-                        <div className="">
+                        <div className="hidden md:block">
                             <ul className="flex flex-row justify-evenly gap-5">
                                 <li>
                                     <Link
@@ -76,7 +76,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="flex gap-16">
+                        <div className="flex md:gap-16 gap-5">
                             <img
                                 src="./assets/search-icon.svg"
                                 alt=""

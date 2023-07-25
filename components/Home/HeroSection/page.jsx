@@ -11,10 +11,10 @@ function HeroSection() {
                             <img
                                 src="./assets/reverse-c.svg"
                                 alt=""
-                                className="h-[118px] w-[118px] absolute right-[30%] z-10"
+                                className="md:h-[118px] md:w-[118px] absolute right-[30%] z-10 w-12 h-12 "
                             />
                             <img
-                                className="absolute right-[20%] top-[60px] z-0"
+                                className="absolute md:right-[20%] md:top-[60px] top-6 right-3 z-0 w-1/2 md:w-auto"
                                 src="./assets/right-arrow.svg"
                                 alt=""
                             />
@@ -26,46 +26,44 @@ function HeroSection() {
                     </div>
 
                     <div className="mx-auto max-w-6xl">
-                        <div className="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-10 place-items-center">
-                            <div className="flex max-w-xl flex-col items-start justify-between col-span-3">
-                                <div className="group relative">
-                                    <p className="mt-5 line-clamp-3 text-sm leading-6 text-white">
-                                        We are one of the best organization
-                                        which is rapidly growing in mobile
-                                        application developments.
-                                    </p>
+                        <div className="mx-auto md:mt-10 grid grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-10 place-items-center">
+                            <div className="flex max-w-xl flex-col items-center justify-stretch md:items-start md:justify-between md:col-span-3 col-span-6">
+                                <p className="md:mt-5 line-clamp-3 text-sm leading-6 text-white md:text-left text-center">
+                                    We are one of the best organization which is
+                                    rapidly growing in mobile application
+                                    developments.
+                                </p>
+                                <img
+                                    className="py-10 hidden md:block"
+                                    src="./assets/right-arrow.svg"
+                                    alt=""
+                                />
+                                <div className="flex flex-row text-white items-top mt-6 md:mt-0">
                                     <img
-                                        className="py-10"
-                                        src="./assets/right-arrow.svg"
+                                        src="./assets/client-1.png"
                                         alt=""
+                                        className="h-10 w-10 rounded-full"
                                     />
-                                    <div className="flex flex-row text-white items-top ">
-                                        <img
-                                            src="./assets/client-1.png"
-                                            alt=""
-                                            className="h-10 w-10 rounded-full"
-                                        />
-                                        <img
-                                            src="./assets/client-2.png"
-                                            alt=""
-                                            className="h-10 w-10 rounded-full -ml-4"
-                                        />
-                                        <img
-                                            src="./assets/client-3.png"
-                                            alt=""
-                                            className="h-10 w-10 rounded-full -ml-4"
-                                        />
-                                        <img
-                                            src="./assets/client-4.png"
-                                            alt=""
-                                            className="h-10 w-10 rounded-full -ml-4"
-                                        />
-                                        <span className="h-10 w-10 bg-primary-red rounded-full -ml-4 flex flex-col items-center justify-center text-md pb-1">
-                                            +
-                                        </span>
-                                        <div className="text-sm ml-6">
-                                            <p>100+ Popular Clients</p>
-                                        </div>
+                                    <img
+                                        src="./assets/client-2.png"
+                                        alt=""
+                                        className="h-10 w-10 rounded-full -ml-4"
+                                    />
+                                    <img
+                                        src="./assets/client-3.png"
+                                        alt=""
+                                        className="h-10 w-10 rounded-full -ml-4"
+                                    />
+                                    <img
+                                        src="./assets/client-4.png"
+                                        alt=""
+                                        className="h-10 w-10 rounded-full -ml-4"
+                                    />
+                                    <span className="h-10 w-10 bg-primary-red rounded-full -ml-4 flex flex-col items-center justify-center text-md pb-1">
+                                        +
+                                    </span>
+                                    <div className="text-sm ml-6">
+                                        <p>100+ Popular Clients</p>
                                     </div>
                                 </div>
                             </div>

@@ -23,8 +23,8 @@ const OurServices = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-32 max-w-5xl mx-auto">
-                    <div className="divide-y divide-dashed">
+                <div className="grid md:grid-cols-2 md:gap-32 max-w-5xl mx-auto ">
+                    <div className="divide-y divide-dashed md:order-1 order-2 px-6   ">
                         <div className="flex flex-row justify-between items-center py-10">
                             <img src="./assets/service-icon-1.svg" alt="" />
                             <p className="px-5">
@@ -70,7 +70,7 @@ const OurServices = () => {
                             <img src="./assets/arrow.svg" alt="" />
                         </div>
                     </div>
-                    <div className="py-6 flex flex-col justify-between">
+                    <div className="py-6 flex flex-col justify-between md:order-2 order-1 mb-24 md:mb-0">
                         <img src="./assets/popular-service.png" alt="" />
 
                         <div className="flex flex-row justify-end items-start mr-8 ">
