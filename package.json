@@ -16,9 +16,13 @@
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+<<<<<<< HEAD
     "tailwindcss": "3.3.2"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.4"
+=======
+    "tailwindcss": "^3.3.2"
+>>>>>>> 1616a5490e504768558916959785d6faa833ad1c
   }
 }
